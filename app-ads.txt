@@ -1,0 +1,33 @@
+# app-ads.txt — RokSoft
+# https://jcroksoft.github.io/app-ads.txt
+#
+# IAB Tech Lab app-ads.txt v1.0
+# This file authorizes the sellers listed below to sell advertising
+# inventory in RokSoft mobile apps.
+#
+# Contact: jung3642@naver.com
+# Apps: Smart Music Player (com.rok.smartmusicplayer) — Android, iOS
+#
+# ----------------------------------------------------------------------
+# TODO BEFORE RELEASE — this file is not yet valid.
+#
+# Replace the placeholder line below with the exact lines AppLovin gives
+# you in the MAX dashboard:
+#
+#   MAX  >  Account  >  app-ads.txt   (or Manage > app-ads.txt)
+#
+# AppLovin publishes the complete, current list of lines — one for
+# AppLovin itself plus one for every mediated ad network you enable.
+# Copy that block verbatim; do not hand-edit the IDs.
+#
+# Each line has the format:
+#   <domain>, <your publisher ID>, DIRECT|RESELLER, <certification authority ID>
+#
+# Also required, or the file will never be found:
+#   1. The store listing "Developer website" must be exactly
+#      https://jcroksoft.github.io  (the domain this file sits at the root of)
+#   2. This file must stay reachable at the ROOT path /app-ads.txt
+#   3. The filename uses a HYPHEN: app-ads.txt  (not app_ads.txt)
+# ----------------------------------------------------------------------
+
+applovin.com, REPLACE_WITH_YOUR_APPLOVIN_PUBLISHER_ID, DIRECT

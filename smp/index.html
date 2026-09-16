@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ko" data-lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Smart Music Player — RokSoft</title>
+<meta name="description" content="Smart Music Player is the simplest local music player for Android and iOS: play fast, read lyrics, and fall asleep comfortably.">
+<link rel="icon" href="/assets/favicon.png">
+<link rel="stylesheet" href="/assets/site.css">
+<script>document.documentElement.dataset.lang=(function(){try{var s=localStorage.getItem("roksoft-lang");if(s==="ko"||s==="en")return s}catch(e){}return (navigator.language||"en").toLowerCase().indexOf("ko")===0?"ko":"en"})()</script>
+<script src="/assets/lang.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/"><span class="mark">R</span>RokSoft</a>
+    <nav class="nav">
+      <a href="/"><span class="ko">홈</span><span class="en">Home</span></a>
+      <a href="#features"><span class="ko">기능</span><span class="en">Features</span></a>
+      <a href="/smp/privacy.html"><span class="ko">개인정보처리방침</span><span class="en">Privacy</span></a>
+      <span class="lang">
+        <button type="button" data-lang="ko" aria-pressed="true">KO</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap" style="display:flex; gap:36px; align-items:center; flex-wrap:wrap;">
+    <img src="/assets/smp-icon.png" alt="Smart Music Player icon" width="132" height="132"
+         style="width:132px; height:132px; border-radius:30px; flex:none;">
+    <div style="flex:1; min-width:260px;">
+      <p class="eyebrow">Android &amp; iOS</p>
+      <h1>Smart Music Player</h1>
+      <p class="lede">
+        <span class="ko">한 화면에서 빠르게 재생하고, 가사를 보고, 편안하게 잠들 수 있는 가장 간편한 로컬 음악 플레이어.</span>
+        <span class="en">The simplest local music player — play fast, read lyrics, and fall asleep comfortably, all from one screen.</span>
+      </p>
+      <div class="pills" style="margin-top:18px;">
+        <span class="pill">com.rok.smartmusicplayer</span>
+        <span class="pill soon"><span class="ko">출시 준비 중</span><span class="en">Coming soon</span></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <h2><span class="ko">이 앱이 하는 일</span><span class="en">What this app does</span></h2>
+    <p class="section-note">
+      <span class="ko">Smart Music Player는 기기에 저장된 내 음악 파일을 재생하는 로컬 플레이어입니다. 스트리밍 서비스가 아니며, 회원가입 없이 바로 사용합니다.</span>
+      <span class="en">Smart Music Player plays the music files already stored on your device. It is not a streaming service, and it works right away with no sign-up.</span>
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3><span class="ko">바로 재생</span><span class="en">Play instantly</span></h3>
+        <p>
+          <span class="ko">기기의 음악을 자동으로 찾아 홈에서 바로 재생합니다. 마지막으로 듣던 곡과 위치도 그대로 이어집니다.</span>
+          <span class="en">Finds the music on your device and plays it straight from the home screen, resuming the track and position you left off at.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">가사 연결</span><span class="en">Lyrics, connected</span></h3>
+        <p>
+          <span class="ko">음원 내장 가사, LRC·TXT 파일, 온라인 가사를 순서대로 찾고, 없으면 직접 입력하거나 편집할 수 있습니다.</span>
+          <span class="en">Finds lyrics embedded in the file, in .lrc or .txt files, or online — and lets you write or edit them yourself.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">편안한 취침 종료</span><span class="en">Gentle sleep timer</span></h3>
+        <p>
+          <span class="ko">시간, 곡 수, 현재 곡까지 중 원하는 기준으로 재생을 끝냅니다. 종료 전 볼륨을 서서히 줄일 수 있습니다.</span>
+          <span class="en">Stop by time, by number of tracks, or at the end of the current song — with an optional gradual fade-out.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">백그라운드 제어</span><span class="en">Background control</span></h3>
+        <p>
+          <span class="ko">화면이 꺼져 있어도 잠금화면, 알림, 블루투스 기기에서 재생을 제어할 수 있습니다.</span>
+          <span class="en">Control playback from the lock screen, notifications, and Bluetooth devices even with the screen off.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">내 방식대로 정리</span><span class="en">Organize it your way</span></h3>
+        <p>
+          <span class="ko">앨범, 아티스트, 폴더별로 보고, 즐겨찾기와 나만의 재생목록을 만들어 정리할 수 있습니다.</span>
+          <span class="en">Browse by album, artist, or folder, and organize with favorites and your own playlists.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">곡 정보와 벨소리</span><span class="en">Track info and ringtones</span></h3>
+        <p>
+          <span class="ko">제목, 아티스트, 썸네일을 직접 고치고, 마음에 드는 곡을 기기 벨소리로 바로 설정할 수 있습니다.</span>
+          <span class="en">Fix a track's title, artist, or thumbnail, and set a song you like as your device ringtone.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">세 가지 테마</span><span class="en">Three themes</span></h3>
+        <p>
+          <span class="ko">Calm Canvas, Midnight Glow, Soft Signal 중에서 고르고, 선택은 기기에 저장됩니다.</span>
+          <span class="en">Choose between Calm Canvas, Midnight Glow, and Soft Signal. Your choice is saved on the device.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">한국어 · English</span><span class="en">Korean &amp; English</span></h3>
+        <p>
+          <span class="ko">기기 언어에 따라 자동으로 전환되며, 설정에서 직접 선택할 수도 있습니다.</span>
+          <span class="en">Switches automatically based on your device language, and can be set manually in Settings.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <h2><span class="ko">기능 상세</span><span class="en">Feature detail</span></h2>
+
+    <h3><span class="ko">라이브러리</span><span class="en">Library</span></h3>
+    <ul class="clean">
+      <li><span class="ko"><strong>Android</strong> — 기기의 음악을 자동으로 검색합니다.</span><span class="en"><strong>Android</strong> — scans the music on your device automatically.</span></li>
+      <li><span class="ko"><strong>iOS</strong> — 파일·폴더를 직접 가져오며 하위 폴더까지 검색합니다.</span><span class="en"><strong>iOS</strong> — import files and folders, including nested subfolders.</span></li>
+      <li><span class="ko">최근 재생, 앨범, 아티스트, 폴더, 재생목록으로 보기 방식 전환</span><span class="en">Switch between recent, album, artist, folder, and playlist views</span></li>
+      <li><span class="ko">제목·앨범·아티스트 검색</span><span class="en">Search by title, album, or artist</span></li>
+      <li><span class="ko">즐겨찾기와 직접 만드는 재생목록, 목록 안에서 순서 변경</span><span class="en">Favorites and custom playlists, with reordering inside a list</span></li>
+      <li><span class="ko">곡 정보(제목·아티스트·썸네일) 수정, 벨소리 설정, 곡 삭제</span><span class="en">Edit track info (title, artist, thumbnail), set as ringtone, and delete tracks</span></li>
+    </ul>
+
+    <h3><span class="ko">재생</span><span class="en">Playback</span></h3>
+    <ul class="clean">
+      <li><span class="ko">재생, 일시정지, 이전, 다음, 진행 위치 이동</span><span class="en">Play, pause, previous, next, and seek</span></li>
+      <li><span class="ko">셔플, 한 곡 반복, 전체 반복</span><span class="en">Shuffle, repeat one, repeat all</span></li>
+      <li><span class="ko">재생 대기열과 위치 복원</span><span class="en">Playback queue with position restore</span></li>
+      <li><span class="ko">목록을 넘기는 동안에도 유지되는 미니 플레이어</span><span class="en">A mini player that stays put while you browse</span></li>
+    </ul>
+
+    <h3><span class="ko">가사</span><span class="en">Lyrics</span></h3>
+    <ul class="clean">
+      <li><span class="ko">내장 가사 &rarr; 같은 이름의 LRC/TXT 파일 &rarr; 온라인 순서로 자동 검색</span><span class="en">Searches embedded lyrics, then matching .lrc/.txt files, then online — in that order</span></li>
+      <li><span class="ko">가사 파일 직접 가져오기, 직접 입력하거나 편집하기</span><span class="en">Import a lyrics file, or type and edit lyrics yourself</span></li>
+      <li><span class="ko">가사가 잘 검색되지 않을 때 검색용 제목·아티스트만 따로 지정 (목록 표시는 그대로 유지)</span><span class="en">When a search misses, set a title and artist just for searching — your library listing stays unchanged</span></li>
+      <li><span class="ko">가사를 보는 동안 화면 꺼짐 방지 (설정에서 켜고 끄기)</span><span class="en">Optionally keep the screen on while viewing lyrics</span></li>
+    </ul>
+
+    <h3><span class="ko">취침 종료</span><span class="en">Sleep timer</span></h3>
+    <ul class="clean">
+      <li><span class="ko">시간 기준 종료</span><span class="en">Stop after a set amount of time</span></li>
+      <li><span class="ko">곡 수 기준 종료</span><span class="en">Stop after a number of tracks</span></li>
+      <li><span class="ko">현재 곡이 끝나면 종료</span><span class="en">Stop when the current track ends</span></li>
+      <li><span class="ko">종료 전 선택형 볼륨 페이드아웃, 언제든 취소 가능</span><span class="en">Optional volume fade-out before stopping, cancellable at any time</span></li>
+    </ul>
+
+    <div class="callout">
+      <span class="ko"><strong>포함하지 않는 것</strong> — 스트리밍 라디오, YouTube 재생, 클라우드 동기화, AI 추천, 고급 EQ, 가사 번역은 이 앱의 범위가 아닙니다.</span>
+      <span class="en"><strong>Not included</strong> — streaming radio, YouTube playback, cloud sync, AI recommendations, advanced EQ, and lyrics translation are outside this app's scope.</span>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="ko">앱 정보</span><span class="en">App information</span></h2>
+    <div class="table-scroll">
+      <table>
+        <tbody>
+          <tr>
+            <th scope="row"><span class="ko">앱 이름</span><span class="en">App name</span></th>
+            <td><strong>Smart Music Player</strong></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">패키지 / 번들 ID</span><span class="en">Package / Bundle ID</span></th>
+            <td><strong>com.rok.smartmusicplayer</strong></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">플랫폼</span><span class="en">Platforms</span></th>
+            <td>Android, iOS</td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">가격</span><span class="en">Price</span></th>
+            <td><span class="ko">무료 (배너 광고 포함, 인앱 구매 없음)</span><span class="en">Free, supported by banner ads. No in-app purchases.</span></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">개발사</span><span class="en">Publisher</span></th>
+            <td>RokSoft</td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">지원 문의</span><span class="en">Support</span></th>
+            <td><a href="mailto:jung3642@naver.com">jung3642@naver.com</a></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">개인정보처리방침</span><span class="en">Privacy Policy</span></th>
+            <td><a href="/smp/privacy.html">https://jcroksoft.github.io/smp/privacy.html</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 RokSoft</span>
+    <span class="spacer"></span>
+    <a href="/"><span class="ko">홈</span><span class="en">Home</span></a>
+    <a href="/smp/privacy.html"><span class="ko">개인정보처리방침</span><span class="en">Privacy Policy</span></a>
+    <a href="mailto:jung3642@naver.com">jung3642@naver.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
