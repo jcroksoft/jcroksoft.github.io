@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="ko" data-lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ListenQ — RokSoft</title>
+<meta name="description" content="ListenQ is an English listening player for Korean middle and high school students: split test audio by question, replay any sentence, and read the English script.">
+<link rel="icon" href="/assets/favicon.png">
+<link rel="stylesheet" href="/assets/site.css">
+<script>document.documentElement.dataset.lang=(function(){try{var s=localStorage.getItem("roksoft-lang");if(s==="ko"||s==="en")return s}catch(e){}return (navigator.language||"en").toLowerCase().indexOf("ko")===0?"ko":"en"})()</script>
+<script src="/assets/lang.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/"><span class="mark">R</span>RokSoft</a>
+    <nav class="nav">
+      <a href="/"><span class="ko">홈</span><span class="en">Home</span></a>
+      <a href="#features"><span class="ko">기능</span><span class="en">Features</span></a>
+      <a href="/lq/privacy.html"><span class="ko">개인정보처리방침</span><span class="en">Privacy</span></a>
+      <span class="lang">
+        <button type="button" data-lang="ko" aria-pressed="true">KO</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap" style="display:flex; gap:36px; align-items:center; flex-wrap:wrap;">
+    <img src="/assets/lq-icon.png" alt="ListenQ icon" width="132" height="132"
+         style="width:132px; height:132px; border-radius:30px; flex:none;">
+    <div style="flex:1; min-width:260px;">
+      <p class="eyebrow">Android &amp; iOS</p>
+      <h1>ListenQ</h1>
+      <p class="lede">
+        <span class="ko">듣기평가 음원을 문항별로 끊어 듣고, 문장마다 다시 듣고, 영어 스크립트까지 폰에서 보는 중·고등학생 영어듣기 플레이어.</span>
+        <span class="en">An English listening player for Korean middle and high school students — split test audio by question, replay any sentence, and read the English script on your phone.</span>
+      </p>
+      <div class="store-links">
+        <span class="store-btn soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 1.8c-.3.3-.5.8-.5 1.4v17.6c0 .6.2 1.1.5 1.4l.1.1 9.9-9.9v-.2L3.7 1.7l-.1.1zm13.3 13.9-3.3-3.3v-.2l3.3-3.3.1.1 3.9 2.2c1.1.6 1.1 1.7 0 2.3l-3.9 2.2h-.1zm-.1.1L13.4 12 3.6 21.8c.4.4 1 .4 1.7.1l11.5-6.1M16.8 8.2 5.3 1.7c-.7-.4-1.3-.3-1.7.1l9.8 9.8 3.4-3.4z"/></svg><span><small><span class="ko">출시 예정</span><span class="en">Coming soon</span></small><strong>Google Play</strong></span></span>
+        <span class="store-btn soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.7-4.1zM13.9 5c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.2 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg><span><small><span class="ko">출시 예정</span><span class="en">Coming soon</span></small><strong>App Store</strong></span></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section id="features">
+  <div class="wrap">
+    <h2><span class="ko">이 앱이 하는 일</span><span class="en">What this app does</span></h2>
+    <p class="section-note">
+      <span class="ko">ListenQ는 듣기평가 음원을 곡 하나가 아니라 문항 묶음으로 다룹니다. 회원가입 없이, 교재 QR을 찍거나 음원 파일을 고르면 바로 시작합니다.</span>
+      <span class="en">ListenQ treats a listening test as a set of questions, not a single track. No sign-up: scan a textbook QR code or pick an audio file and start.</span>
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3><span class="ko">문항별 자동 분할</span><span class="en">Split by question</span></h3>
+        <p>
+          <span class="ko">듣기평가 음원을 넣으면 무음 구간을 읽어 1번부터 문항마다 끊어 둡니다. ◀◀ ▶▶ 나 문항 격자로 원하는 문항에 바로 갑니다.</span>
+          <span class="en">Add a listening test and the App splits it into questions by reading the silences. Jump to any question with ◀◀ ▶▶ or the question grid.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">◀ 문장 ▶</span><span class="en">Sentence rewind</span></h3>
+        <p>
+          <span class="ko">±5초 대신 문장 단위로 옮깁니다. "방금 그 문장 다시"가 버튼 하나입니다. 미세 조정용 ±10초, ±30초도 있습니다.</span>
+          <span class="en">Move by sentence instead of by seconds, so "play that sentence again" is a single tap. ±10 and ±30 seconds are there for fine control.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">영어 스크립트</span><span class="en">English script</span></h3>
+        <p>
+          <span class="ko">문항마다 영어 본문을 받아 적어 지면처럼 펼칩니다. 한국어 지문은 빼고, 문장을 누르면 그 자리로 갑니다. 분석은 인터넷 없이 기기 안에서 합니다.</span>
+          <span class="en">Each question is transcribed into an English script laid out like a textbook page. Korean prompts are skipped and tapping a sentence jumps to it. Analysis runs on the device, offline.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">교재 QR 한 번</span><span class="en">One textbook QR scan</span></h3>
+        <p>
+          <span class="ko">교재의 음원 QR을 찍으면 내려받아 바로 담습니다. 기기의 파일이나 다른 앱에서 공유로 보내도 됩니다.</span>
+          <span class="en">Scan the audio QR code in your textbook and the file is downloaded and added. You can also pick a file or share one from another app.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">화면이 꺼져 있어도</span><span class="en">Screen off</span></h3>
+        <p>
+          <span class="ko">잠금화면, 알림, 이어폰 버튼으로 재생을 조작하고 이전·다음은 문항 이동입니다. 전체 분석도 다른 앱을 쓰는 동안 계속됩니다.</span>
+          <span class="en">Control playback from the lock screen, notification, or earphones; previous/next jumps between questions. Full analysis keeps running while you use other apps.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">카세트 · CD</span><span class="en">Cassette or CD</span></h3>
+        <p>
+          <span class="ko">옛 어학실습실 같은 카세트 데크와 요즘 오디오 같은 CD 플레이어 중에서 고르고, 다크 모드와 시스템 설정 따르기도 됩니다.</span>
+          <span class="en">Choose a language-lab cassette deck or a modern CD player, with dark mode or follow-the-system.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="ko">앱 정보</span><span class="en">App information</span></h2>
+    <div class="table-scroll">
+      <table>
+        <tbody>
+          <tr>
+            <th scope="row"><span class="ko">앱 이름</span><span class="en">App name</span></th>
+            <td><strong>ListenQ</strong></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">패키지 / 번들 ID</span><span class="en">Package / Bundle ID</span></th>
+            <td><strong>com.rok.listenq</strong></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">플랫폼</span><span class="en">Platforms</span></th>
+            <td>Android, iOS <span class="meta"><span class="ko">(대한민국)</span><span class="en">(South Korea)</span></span></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">다운로드</span><span class="en">Download</span></th>
+            <td><span class="ko">Google Play · App Store 출시 예정</span><span class="en">Google Play and App Store coming soon</span></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">가격</span><span class="en">Price</span></th>
+            <td><span class="ko">무료 (광고 포함, 인앱 구매 없음)</span><span class="en">Free, supported by ads. No in-app purchases.</span></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">개발사</span><span class="en">Publisher</span></th>
+            <td>RokSoft</td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">지원 문의</span><span class="en">Support</span></th>
+            <td><a href="mailto:jung3642@naver.com">jung3642@naver.com</a></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">개인정보처리방침</span><span class="en">Privacy Policy</span></th>
+            <td><a href="/lq/privacy.html">https://jcroksoft.github.io/lq/privacy.html</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 RokSoft</span>
+    <span class="spacer"></span>
+    <a href="/"><span class="ko">홈</span><span class="en">Home</span></a>
+    <a href="/lq/privacy.html"><span class="ko">개인정보처리방침</span><span class="en">Privacy Policy</span></a>
+    <a href="mailto:jung3642@naver.com">jung3642@naver.com</a>
+  </div>
+</footer>
+
+</body>
+</html>
