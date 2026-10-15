@@ -1,33 +1,33 @@
-# app-ads.txt — RokSoft
+# app-ads.txt - RokSoft (operated by twotap)
 # https://jcroksoft.github.io/app-ads.txt
 #
 # IAB Tech Lab app-ads.txt v1.1
-# 아래 판매자가 RokSoft 앱의 광고 지면을 판매할 수 있도록 허가한다.
+# The sellers below are authorized to sell ad inventory in RokSoft apps.
 #
 # Contact: jung3642@naver.com
-# Apps: Smart Music Player (com.rok.smartmusicplayer) — Android, iOS
-#       ListenQ (com.rok.listenq) — Android, iOS
+# Apps: Smart Music Player (com.rok.smartmusicplayer) - Android, iOS
+#       ListenQ (com.rok.listenq) - Android, iOS
 #
-# 광고 미디에이션: Unity LevelPlay (ironSource). 한 파일을 두 앱이 함께 쓴다.
+# Mediation: Unity LevelPlay (ironSource). Both apps share this file.
 #
-# 줄 출처 — 판매자 목록은 수시로 바뀌니 한 달에 한 번쯤 대시보드와 맞춘다.
-#   - ironSource: Unity 문서 grow/programmatic/ironsource-exchange/app-ads-txt
-#   - Unity Ads : Unity 대시보드 Organization settings > App-ads.txt (빠진 줄만 보여 준다)
-#   - Pangle    : 대시보드 왼쪽 아래 계정 ID
-#   - InMobi    : 퍼블리셔 대시보드 Inventory > app-ads.txt > Exhaustive sellers list
+# Sources - seller lists change; re-check the dashboards about once a month.
+#   - ironSource: Unity docs grow/programmatic/ironsource-exchange/app-ads-txt
+#   - Unity Ads : Unity dashboard Organization settings > App-ads.txt (shows missing lines only)
+#   - Pangle    : account ID at the bottom-left of the dashboard
+#   - InMobi    : publisher dashboard Inventory > app-ads.txt > Exhaustive sellers list
 #
-# 이 파일을 찾으려면 두 앱 모두 스토어의 개발자 웹사이트가 정확히
-# https://jcroksoft.github.io 여야 하고, 파일은 루트(/app-ads.txt)에 있어야 한다.
+# The developer website in both store listings must be exactly
+# https://jcroksoft.github.io and this file must stay at the root (/app-ads.txt).
 
 OWNERDOMAIN=jcroksoft.github.io
 
-# ── 직접 계약 (DIRECT) ──
+# --- Direct (DIRECT) ---
 ironsrc.com, 690851, DIRECT
 unity.com, 1039063, DIRECT, 96cabb5fbdde37a7
 pangleglobal.com, 5044973, DIRECT
 inmobi.com, 9499e4fb524049ce80eab04f7a7d17f1, DIRECT, 83e75a7ae333ca9d
 
-# ── ironSource 공인 리셀러 ──
+# --- ironSource authorized resellers ---
 appads.in, 105536, RESELLER
 appnexus.com, 11826, RESELLER, f5ab79cb980f11d1
 appnexus.com, 12700, RESELLER, f5ab79cb980f11d1
@@ -153,7 +153,7 @@ xandr.com, 16856, RESELLER
 xandr.com, 17779, RESELLER
 zmaticoo.com, 5135703, RESELLER
 
-# ── Unity Ads 공인 리셀러 ──
+# --- Unity Ads authorized resellers ---
 adwmg.com, 159512, RESELLER, c9688a22012618e7
 appads.in, 106246, RESELLER
 appnexus.com, 17973, RESELLER, f5ab79cb980f11d1
@@ -255,7 +255,7 @@ xandr.com, 7353, RESELLER
 zetaglobal.net, 525, RESELLER
 zmaticoo.com, 5135195, RESELLER
 
-# ── InMobi 공인 리셀러 ──
+# --- InMobi authorized resellers ---
 33across.com, 0010b00002Xbn7QAAR, RESELLER, bbea06d9c4d2853c
 acexchange.co.kr, 1416775282, RESELLER
 acexchange.co.kr, 1562884725, RESELLER
