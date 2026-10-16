@@ -1,8 +1,8 @@
-# app-ads.txt - RokSoft (operated by twotap)
+# app-ads.txt - TwoTap
 # https://jcroksoft.github.io/app-ads.txt
 #
 # IAB Tech Lab app-ads.txt v1.1
-# The sellers below are authorized to sell ad inventory in RokSoft apps.
+# The sellers below are authorized to sell ad inventory in TwoTap apps.
 #
 # Contact: jung3642@naver.com
 # Apps: Smart Music Player (com.rok.smartmusicplayer) - Android, iOS

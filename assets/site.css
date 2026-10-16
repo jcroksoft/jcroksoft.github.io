@@ -69,15 +69,10 @@ a:hover { text-decoration: underline; }
 }
 .brand:hover { text-decoration: none; }
 .brand .mark {
-  width: 26px;
-  height: 26px;
-  border-radius: 7px;
-  background: linear-gradient(135deg, var(--lavender), var(--cyan));
-  display: grid;
-  place-items: center;
-  color: #0a0d16;
-  font-size: 12px;
-  font-weight: 800;
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  flex: none;
 }
 
 .nav {
@@ -120,6 +115,16 @@ a:hover { text-decoration: underline; }
   background:
     radial-gradient(700px 320px at 12% -10%, rgba(170, 156, 255, 0.16), transparent 70%),
     radial-gradient(620px 300px at 92% 0%, rgba(118, 228, 247, 0.12), transparent 70%);
+}
+
+.hero-brand { display: flex; gap: 36px; align-items: center; flex-wrap: wrap; }
+.hero-brand > div { flex: 1; min-width: 260px; }
+.hero-mark {
+  width: 112px;
+  height: 112px;
+  border-radius: 28px;
+  flex: none;
+  box-shadow: 0 18px 50px rgba(118, 228, 247, 0.18);
 }
 
 .eyebrow {
@@ -199,11 +204,14 @@ h3 {
   color: inherit;
   transition: border-color 0.15s ease, transform 0.15s ease;
 }
+.app-card + .app-card { margin-top: 16px; }
 .app-card:hover {
-  text-decoration: none;
   border-color: var(--line-strong);
   transform: translateY(-2px);
 }
+.app-card > div { flex: 1; min-width: 0; }
+.app-card .app-icon { flex: none; }
+.app-card h3 a { color: inherit; }
 .app-card img {
   width: 76px;
   height: 76px;
@@ -212,6 +220,36 @@ h3 {
 }
 .app-card h3 { margin: 0 0 4px; font-size: 19px; }
 .app-card p { margin: 0 0 12px; color: var(--muted); font-size: 14.5px; }
+
+.card-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 20px;
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  font-size: 14px;
+}
+
+/* 게임 스크린샷 줄: 좁은 화면에서는 가로로 밀어 봐요 */
+.shots {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(170px, 1fr);
+  gap: 14px;
+  overflow-x: auto;
+  padding-bottom: 6px;
+  scroll-snap-type: x mandatory;
+}
+.shots figure { margin: 0; scroll-snap-align: start; }
+.shots img {
+  width: 100%;
+  aspect-ratio: 1179 / 2100;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 1px solid var(--line);
+}
+.shots figcaption { margin-top: 8px; font-size: 13px; color: var(--muted); text-align: center; }
 
 .pills { display: flex; flex-wrap: wrap; gap: 7px; }
 .pill {

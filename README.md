@@ -1,21 +1,22 @@
-# RokSoft Website
+# TwoTap Website
 
-RokSoft 공식 웹사이트. GitHub Pages로 `https://jcroksoft.github.io` 에 게시된다.
+TwoTap(투탭) 공식 웹사이트. GitHub Pages로 `https://jcroksoft.github.io` 에 게시된다.
 
 ## 구조
 
 ```
 .
-├── index.html          회사 소개와 앱 목록
+├── index.html          회사 소개, 앱·게임 목록 (카드마다 소개·개인정보처리방침 링크)
 ├── app-ads.txt         IAB app-ads.txt (루트 경로 고정)
 ├── assets/
 │   ├── site.css        공통 스타일
 │   ├── lang.js         한국어/영어 전환
-│   ├── favicon.png
-│   └── smp-icon.png
-└── smp/
-    ├── index.html      Smart Music Player 소개
-    └── privacy.html    Smart Music Player 개인정보처리방침
+│   ├── twotap-mark.svg TwoTap 로고 (두 번 탭하는 두 손가락). favicon.png · apple-touch-icon.png · twotap-logo-512.png 는 이 SVG 를 렌더링한 것
+│   ├── smp-icon.png · lq-icon.png · deepminer-icon.png
+│   └── deepminer/      딥 마이너 소개 스크린샷 (Play 빌드 캡처를 540px JPEG 로 줄인 것)
+├── smp/                Smart Music Player 소개 · 개인정보처리방침
+├── lq/                 ListenQ 소개 · 개인정보처리방침 · version.json
+└── deepminer/          딥 마이너: 우주로 소개 · 개인정보처리방침
 ```
 
 ## 고정 URL
@@ -27,6 +28,8 @@ RokSoft 공식 웹사이트. GitHub Pages로 `https://jcroksoft.github.io` 에 �
 | 개발사 웹사이트 | `https://jcroksoft.github.io` |
 | app-ads.txt | `https://jcroksoft.github.io/app-ads.txt` |
 | SMP 개인정보처리방침 | `https://jcroksoft.github.io/smp/privacy.html` |
+| ListenQ 개인정보처리방침 | `https://jcroksoft.github.io/lq/privacy.html` |
+| 딥 마이너 개인정보처리방침 | `https://jcroksoft.github.io/deepminer/privacy.html` |
 
 ## 로컬 미리보기
 

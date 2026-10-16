@@ -3,18 +3,20 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ListenQ — RokSoft</title>
+<title>ListenQ — TwoTap</title>
 <meta name="description" content="ListenQ is an English listening player for Korean middle and high school students: split test audio by question, replay any sentence, and read the English script.">
-<link rel="icon" href="/assets/favicon.png">
+<link rel="icon" href="/assets/twotap-mark.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon.png" sizes="64x64">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
 <link rel="stylesheet" href="/assets/site.css">
-<script>document.documentElement.dataset.lang=(function(){try{var s=localStorage.getItem("roksoft-lang");if(s==="ko"||s==="en")return s}catch(e){}return (navigator.language||"en").toLowerCase().indexOf("ko")===0?"ko":"en"})()</script>
+<script>document.documentElement.dataset.lang=(function(){try{var s=localStorage.getItem("twotap-lang");if(s==="ko"||s==="en")return s}catch(e){}return (navigator.language||"en").toLowerCase().indexOf("ko")===0?"ko":"en"})()</script>
 <script src="/assets/lang.js" defer></script>
 </head>
 <body>
 
 <header class="site-header">
   <div class="wrap">
-    <a class="brand" href="/"><span class="mark">R</span>RokSoft</a>
+    <a class="brand" href="/"><img class="mark" src="/assets/twotap-mark.svg" alt="" width="28" height="28">TwoTap</a>
     <nav class="nav">
       <a href="/"><span class="ko">홈</span><span class="en">Home</span></a>
       <a href="#features"><span class="ko">기능</span><span class="en">Features</span></a>
@@ -39,7 +41,7 @@
         <span class="en">An English listening player for Korean middle and high school students — split test audio by question, replay any sentence, and read the English script on your phone.</span>
       </p>
       <div class="store-links">
-        <span class="store-btn soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 1.8c-.3.3-.5.8-.5 1.4v17.6c0 .6.2 1.1.5 1.4l.1.1 9.9-9.9v-.2L3.7 1.7l-.1.1zm13.3 13.9-3.3-3.3v-.2l3.3-3.3.1.1 3.9 2.2c1.1.6 1.1 1.7 0 2.3l-3.9 2.2h-.1zm-.1.1L13.4 12 3.6 21.8c.4.4 1 .4 1.7.1l11.5-6.1M16.8 8.2 5.3 1.7c-.7-.4-1.3-.3-1.7.1l9.8 9.8 3.4-3.4z"/></svg><span><small><span class="ko">출시 예정</span><span class="en">Coming soon</span></small><strong>Google Play</strong></span></span>
+        <a class="store-btn" href="https://play.google.com/store/apps/details?id=com.rok.listenq" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 1.8c-.3.3-.5.8-.5 1.4v17.6c0 .6.2 1.1.5 1.4l.1.1 9.9-9.9v-.2L3.7 1.7l-.1.1zm13.3 13.9-3.3-3.3v-.2l3.3-3.3.1.1 3.9 2.2c1.1.6 1.1 1.7 0 2.3l-3.9 2.2h-.1zm-.1.1L13.4 12 3.6 21.8c.4.4 1 .4 1.7.1l11.5-6.1M16.8 8.2 5.3 1.7c-.7-.4-1.3-.3-1.7.1l9.8 9.8 3.4-3.4z"/></svg><span><small><span class="ko">다운로드</span><span class="en">Get it on</span></small><strong>Google Play</strong></span></a>
         <span class="store-btn soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.7-4.1zM13.9 5c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.2 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg><span><small><span class="ko">출시 예정</span><span class="en">Coming soon</span></small><strong>App Store</strong></span></span>
       </div>
     </div>
@@ -120,7 +122,7 @@
           </tr>
           <tr>
             <th scope="row"><span class="ko">다운로드</span><span class="en">Download</span></th>
-            <td><span class="ko">Google Play · App Store 출시 예정</span><span class="en">Google Play and App Store coming soon</span></td>
+            <td><a href="https://play.google.com/store/apps/details?id=com.rok.listenq" target="_blank" rel="noopener">Google Play</a> · <span class="ko">App Store 출시 예정</span><span class="en">App Store coming soon</span></td>
           </tr>
           <tr>
             <th scope="row"><span class="ko">가격</span><span class="en">Price</span></th>
@@ -128,7 +130,7 @@
           </tr>
           <tr>
             <th scope="row"><span class="ko">개발사</span><span class="en">Publisher</span></th>
-            <td>twotap (RokSoft)</td>
+            <td>TwoTap<span class="ko"> (투탭)</span></td>
           </tr>
           <tr>
             <th scope="row"><span class="ko">지원 문의</span><span class="en">Support</span></th>
@@ -146,7 +148,7 @@
 
 <footer class="site-footer">
   <div class="wrap">
-    <span>&copy; 2026 RokSoft · <span class="ko">운영: twotap</span><span class="en">Operated by twotap</span></span>
+    <span>&copy; 2026 TwoTap<span class="ko"> (투탭)</span></span>
     <span class="spacer"></span>
     <a href="/"><span class="ko">홈</span><span class="en">Home</span></a>
     <a href="/lq/privacy.html"><span class="ko">개인정보처리방침</span><span class="en">Privacy Policy</span></a>

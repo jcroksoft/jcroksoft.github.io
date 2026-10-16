@@ -1,5 +1,5 @@
 (function () {
-  var KEY = "roksoft-lang";
+  var KEY = "twotap-lang";
   var root = document.documentElement;
 
   function pick() {
