@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="ko" data-lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>운빨 체스 3D — TwoTap</title>
+<meta name="description" content="Luck Chess 3D is a cute 3D chess game where trying to capture a piece starts a one-on-one battle decided by critical hits and dodges.">
+<link rel="icon" href="/assets/twotap-mark.svg" type="image/svg+xml">
+<link rel="icon" href="/assets/favicon.png" sizes="64x64">
+<link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/site.css">
+<script>document.documentElement.dataset.lang=(function(){try{var s=localStorage.getItem("twotap-lang");if(s==="ko"||s==="en")return s}catch(e){}return (navigator.language||"en").toLowerCase().indexOf("ko")===0?"ko":"en"})()</script>
+<script src="/assets/lang.js" defer></script>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="/"><img class="mark" src="/assets/twotap-mark.svg" alt="" width="28" height="28">TwoTap</a>
+    <nav class="nav">
+      <a href="/"><span class="ko">홈</span><span class="en">Home</span></a>
+      <a href="#features"><span class="ko">특징</span><span class="en">Features</span></a>
+      <a href="/luckchess/privacy.html"><span class="ko">개인정보처리방침</span><span class="en">Privacy</span></a>
+      <span class="lang">
+        <button type="button" data-lang="ko" aria-pressed="true">KO</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </span>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <div class="wrap hero-brand">
+    <img src="/assets/luckchess-icon.png" alt="Luck Chess 3D icon" width="132" height="132"
+         style="width:132px; height:132px; border-radius:30px; flex:none;">
+    <div>
+      <p class="eyebrow"><span class="ko">토스 앱인토스 &amp; Android</span><span class="en">Toss mini app &amp; Android</span></p>
+      <h1><span class="ko">운빨 체스 3D</span><span class="en">Luck Chess 3D</span></h1>
+      <p class="lede">
+        <span class="ko">체스처럼 말을 움직이다가, 상대 말을 잡으려 하면 두 말이 1:1로 싸우는 3D 체스 게임입니다. 공격이 빗나가기도 하고 치명타가 터지기도 해서, 약한 말이 강한 말을 이기는 일도 생깁니다. 구름섬 위의 장난감 같은 말들을 모으고 키워 나만의 6명으로 싸워 보세요.</span>
+        <span class="en">A 3D chess game where pieces move just like chess — but trying to capture a piece starts a one-on-one battle. Attacks can miss and critical hits can land, so a weak piece can beat a strong one. Collect and grow toy-like pieces on a floating cloud island and fight with your own team of six.</span>
+      </p>
+      <div class="store-links">
+        <span class="store-btn soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 1.5h10A2.5 2.5 0 0 1 19.5 4v16a2.5 2.5 0 0 1-2.5 2.5H7A2.5 2.5 0 0 1 4.5 20V4A2.5 2.5 0 0 1 7 1.5zm0 3V18h10V4.5zm5 14.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4z"/></svg><span><small><span class="ko">출시 예정</span><span class="en">Coming soon</span></small><strong><span class="ko">토스 앱인토스</span><span class="en">Toss mini app</span></strong></span></span>
+        <span class="store-btn soon" aria-disabled="true"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 1.8c-.3.3-.5.8-.5 1.4v17.6c0 .6.2 1.1.5 1.4l.1.1 9.9-9.9v-.2L3.7 1.7l-.1.1zm13.3 13.9-3.3-3.3v-.2l3.3-3.3.1.1 3.9 2.2c1.1.6 1.1 1.7 0 2.3l-3.9 2.2h-.1zm-.1.1L13.4 12 3.6 21.8c.4.4 1 .4 1.7.1l11.5-6.1M16.8 8.2 5.3 1.7c-.7-.4-1.3-.3-1.7.1l9.8 9.8 3.4-3.4z"/></svg><span><small><span class="ko">출시 예정</span><span class="en">Coming soon</span></small><strong>Google Play</strong></span></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<section>
+  <div class="wrap">
+    <div class="shots tall">
+      <figure><img src="/assets/luckchess/island.jpg" alt="" loading="lazy" width="584" height="962"><figcaption><span class="ko">구름섬 위의 체스판</span><span class="en">Chess on a cloud island</span></figcaption></figure>
+      <figure><img src="/assets/luckchess/board.jpg" alt="" loading="lazy" width="584" height="962"><figcaption><span class="ko">체스처럼 두기</span><span class="en">Moves like chess</span></figcaption></figure>
+      <figure><img src="/assets/luckchess/battle.jpg" alt="" loading="lazy" width="584" height="962"><figcaption><span class="ko">잡으려 하면 1:1 전투</span><span class="en">Capture means battle</span></figcaption></figure>
+      <figure><img src="/assets/luckchess/draw.jpg" alt="" loading="lazy" width="584" height="962"><figcaption><span class="ko">보물 상자 뽑기</span><span class="en">Treasure chest draws</span></figcaption></figure>
+      <figure><img src="/assets/luckchess/chars.jpg" alt="" loading="lazy" width="584" height="962"><figcaption><span class="ko">캐릭터 36명</span><span class="en">36 characters</span></figcaption></figure>
+      <figure><img src="/assets/luckchess/boss.jpg" alt="" loading="lazy" width="584" height="962"><figcaption><span class="ko">보스 토벌전 (토스)</span><span class="en">Boss raids (Toss)</span></figcaption></figure>
+      <figure><img src="/assets/luckchess/final.jpg" alt="" loading="lazy" width="584" height="962"><figcaption><span class="ko">10단계 최종 보스 (토스)</span><span class="en">Stage 10 final boss (Toss)</span></figcaption></figure>
+      <figure><img src="/assets/luckchess/raid.jpg" alt="" loading="lazy" width="584" height="962"><figcaption><span class="ko">친구와 함께 (토스)</span><span class="en">Play with friends (Toss)</span></figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="features">
+  <div class="wrap">
+    <h2><span class="ko">이런 게임이에요</span><span class="en">What the game is about</span></h2>
+    <p class="section-note">
+      <span class="ko">말이 움직이는 방법은 체스와 같습니다. 캐슬링과 앙파상, 체크메이트는 없고, 상대 킹을 쓰러뜨리면 이깁니다.</span>
+      <span class="en">Pieces move just like in chess. There is no castling, en passant or checkmate — knock down the enemy king to win.</span>
+    </p>
+    <div class="grid">
+      <div class="card">
+        <h3><span class="ko">잡으려 하면 1:1 전투</span><span class="en">Capture means a duel</span></h3>
+        <p>
+          <span class="ko">상대 말이 있는 칸으로 가면 화면이 전투 무대로 바뀝니다. 잡으려 한 말이 먼저 공격하고, 지키는 말이 살아 있으면 반격합니다. 치명타 40%는 피해 2배, 회피 30%는 피해 0입니다.</span>
+          <span class="en">Move onto an enemy piece and the scene turns into a battle stage. The attacker strikes first and the defender hits back if it survives. Critical hits (40%) deal double damage; dodges (30%) take none.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">캐릭터 36명</span><span class="en">36 characters</span></h3>
+        <p>
+          <span class="ko">폰·나이트·비숍·룩·퀸·킹 6종이 일반부터 고대까지 6등급으로 있습니다. 슈퍼레어부터 방어막, 흡혈, 천벌, 차원회피 스킬이 하나씩 늘어납니다.</span>
+          <span class="en">Six piece types — pawn, knight, bishop, rook, queen and king — each in six grades from Common to Ancient. From Super Rare up, pieces gain skills: Shield, Lifesteal, Smite and Phase Dodge.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">뽑기와 별 올리기</span><span class="en">Draws and stars</span></h3>
+        <p>
+          <span class="ko">대전에서 번 코인으로 보물 상자를 열어 캐릭터를 뽑습니다. 같은 캐릭터가 또 나오면 조각을 받고, 조각 5개로 별을 하나 올립니다. 등급별 확률은 게임 안에서 볼 수 있습니다.</span>
+          <span class="en">Spend the coins you win to open treasure chests and draw characters. Duplicates become shards, and five shards add a star. Draw odds for every grade are shown in the game.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">AI 대전 · 한 폰으로 둘이</span><span class="en">vs AI · Two on one phone</span></h3>
+        <p>
+          <span class="ko">AI는 쉬움, 보통, 어려움 세 단계입니다. 한 폰으로 둘이 할 때는 차례가 바뀔 때마다 보드가 돌아가고, 둘 다 기본 말로 공정하게 겨룹니다.</span>
+          <span class="en">Play the AI on Easy, Normal or Hard. In two-player mode on one phone the board turns each turn, and both sides use the basic pieces for a fair game.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">온라인 대전 (토스)</span><span class="en">Online matches (Toss)</span></h3>
+        <p>
+          <span class="ko">토스 버전에서는 트로피가 비슷한 상대와 1:1로 대전하고, 방 코드로 친구와 겨룰 수 있습니다. 주사위는 서버가 굴려 공정하게 판정합니다.</span>
+          <span class="en">In the Toss version you can play one-on-one against players with similar trophies, or invite a friend with a room code. The server rolls the dice, so every battle is fair.</span>
+        </p>
+      </div>
+      <div class="card">
+        <h3><span class="ko">보스 토벌전 (토스)</span><span class="en">Boss raids (Toss)</span></h3>
+        <p>
+          <span class="ko">2~4명이 함께 슬라임 킹부터 종말의 영원까지 10단계 보스에 도전합니다. 단계가 높을수록 비바람과 천둥이 거세지고, 보스의 공격에 보드가 갈라지기도 합니다.</span>
+          <span class="en">Team up with 2–4 players against ten bosses, from the Slime King to the Eternal Doom. Higher stages bring heavier rain and thunder, and boss attacks can crack the board.</span>
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <h2><span class="ko">게임 정보</span><span class="en">Game information</span></h2>
+    <div class="table-scroll">
+      <table>
+        <tbody>
+          <tr>
+            <th scope="row"><span class="ko">게임 이름</span><span class="en">Name</span></th>
+            <td><strong><span class="ko">운빨 체스 3D</span><span class="en">Luck Chess 3D</span></strong></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">플랫폼</span><span class="en">Platforms</span></th>
+            <td><span class="ko">토스 앱인토스(토스 앱 안의 미니 게임), Android</span><span class="en">Toss mini app (inside the Toss app), Android</span> <span class="meta"><span class="ko">(대한민국)</span><span class="en">(South Korea)</span></span></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">패키지 이름</span><span class="en">Package name</span></th>
+            <td><strong>com.twotap.luckchess</strong> <span class="meta">(Android)</span></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">버전별 차이</span><span class="en">Versions</span></th>
+            <td>
+              <span class="ko">토스 버전은 온라인 대전·친구 대전·보스 토벌전, 광고, 인앱 결제(다이아·패키지·테마), 게임센터 순위가 있습니다. Android 버전은 AI 대전과 한 폰으로 둘이 하는 오프라인 게임이며, 광고와 인앱 결제가 없습니다.</span>
+              <span class="en">The Toss version has online and friend matches, boss raids, ads, in-app purchases (diamonds, packs and themes) and Game Center rankings. The Android version is offline — vs AI and two players on one phone — with no ads and no in-app purchases.</span>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">가격</span><span class="en">Price</span></th>
+            <td><span class="ko">무료</span><span class="en">Free</span></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">계정</span><span class="en">Account</span></th>
+            <td><span class="ko">회원가입·로그인 없음. 진행 상황은 기기에 저장됩니다.</span><span class="en">No sign-up or sign-in. Progress is saved on your device.</span></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">개발사</span><span class="en">Publisher</span></th>
+            <td>TwoTap<span class="ko"> (투탭)</span></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">지원 문의</span><span class="en">Support</span></th>
+            <td><a href="mailto:jung3642@naver.com">jung3642@naver.com</a></td>
+          </tr>
+          <tr>
+            <th scope="row"><span class="ko">개인정보처리방침</span><span class="en">Privacy Policy</span></th>
+            <td><a href="/luckchess/privacy.html">https://jcroksoft.github.io/luckchess/privacy.html</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <span>&copy; 2026 TwoTap<span class="ko"> (투탭)</span></span>
+    <span class="spacer"></span>
+    <a href="/"><span class="ko">홈</span><span class="en">Home</span></a>
+    <a href="/luckchess/privacy.html"><span class="ko">개인정보처리방침</span><span class="en">Privacy Policy</span></a>
+    <a href="mailto:jung3642@naver.com">jung3642@naver.com</a>
+  </div>
+</footer>
+
+</body>
+</html>

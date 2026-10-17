@@ -244,11 +244,13 @@ h3 {
 .shots figure { margin: 0; scroll-snap-align: start; }
 .shots img {
   width: 100%;
+  height: auto;
   aspect-ratio: 1179 / 2100;
   object-fit: cover;
   border-radius: 18px;
   border: 1px solid var(--line);
 }
+.shots.tall img { aspect-ratio: 636 / 1048; }
 .shots figcaption { margin-top: 8px; font-size: 13px; color: var(--muted); text-align: center; }
 
 .pills { display: flex; flex-wrap: wrap; gap: 7px; }
