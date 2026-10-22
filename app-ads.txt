@@ -7,8 +7,9 @@
 # Contact: jung3642@naver.com
 # Apps: Smart Music Player (com.rok.smartmusicplayer) - Android, iOS
 #       ListenQ (com.rok.listenq) - Android, iOS
+#       Deep Miner (com.twotap.deepminer) - Android
 #
-# Mediation: Unity LevelPlay (ironSource). Both apps share this file.
+# Mediation: Unity LevelPlay (ironSource). All apps share this file.
 #
 # Sources - seller lists change; re-check the dashboards about once a month.
 #   - ironSource: Unity docs grow/programmatic/ironsource-exchange/app-ads-txt

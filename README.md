@@ -17,7 +17,7 @@ TwoTap(투탭) 공식 웹사이트. GitHub Pages로 `https://jcroksoft.github.io
 │   └── luckchess/      운빨 체스 소개 스크린샷 (토스 세로 스크린샷을 높이 962px JPEG 로 줄인 것)
 ├── smp/                Smart Music Player 소개 · 개인정보처리방침
 ├── lq/                 ListenQ 소개 · 개인정보처리방침 · version.json
-├── deepminer/          딥 마이너: 우주로 소개 · 개인정보처리방침
+├── deepminer/          딥 마이너: 광산 땅파기 소개 · 개인정보처리방침
 └── luckchess/          운빨 체스 3D 소개 · 개인정보처리방침
 ```
 
