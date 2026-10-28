@@ -251,6 +251,7 @@ h3 {
   border: 1px solid var(--line);
 }
 .shots.tall img { aspect-ratio: 636 / 1048; }
+.shots.phone img { aspect-ratio: 1 / 2; }
 .shots figcaption { margin-top: 8px; font-size: 13px; color: var(--muted); text-align: center; }
 
 .pills { display: flex; flex-wrap: wrap; gap: 7px; }
