@@ -37,8 +37,8 @@
       <span class="en">This Privacy Policy applies to ListenQ (<strong>com.rok.listenq</strong>, the &ldquo;App&rdquo;), provided by TwoTap (&ldquo;we&rdquo;, &ldquo;us&rdquo;).</span>
     </p>
     <p class="meta" style="margin-top:16px;">
-      <span class="ko">시행일: 2026년 10월 2일 · 최종 수정일: 2026년 10월 2일</span>
-      <span class="en">Effective: October 2, 2026 · Last updated: October 2, 2026</span>
+      <span class="ko">시행일: 2026년 10월 2일 · 최종 수정일: 2026년 11월 13일</span>
+      <span class="en">Effective: October 2, 2026 · Last updated: November 13, 2026</span>
     </p>
   </div>
 </div>
@@ -140,8 +140,8 @@
     <h2>5. <span class="ko">QR 음원 내려받기와 분석 모델</span><span class="en">QR downloads and the analysis model</span></h2>
     <ul class="clean">
       <li><span class="ko"><strong>QR 음원</strong> — 이용자가 교재의 QR을 찍으면 QR에 적힌 주소(출판사 서버)에서 음원을 내려받습니다. 이때 출판사 서버는 일반적인 웹 접속과 같이 IP 주소 등 접속 정보를 받을 수 있습니다. 개발사는 이 과정에 관여하지 않습니다.</span><span class="en"><strong>QR audio</strong> — when you scan a textbook QR code, the App downloads the audio from the address in the code (the publisher's server). Like any web request, that server may receive connection details such as your IP address. We are not involved in this exchange.</span></li>
-      <li><span class="ko"><strong>QR 스캔</strong> — Android에서는 Google Play 서비스의 코드 스캐너를 사용하며, 카메라 화면은 앱에 전달되지 않고 인식된 주소만 전달됩니다. iOS에서는 기기 카메라로 QR만 인식하며 사진을 저장하거나 전송하지 않습니다.</span><span class="en"><strong>QR scanning</strong> — on Android the App uses the Google Play services code scanner, which passes only the decoded address to the App, never the camera image. On iOS the camera is used only to read the QR code; no images are saved or sent.</span></li>
-      <li><span class="ko"><strong>분석 모델</strong> — 처음 분석할 때 필요한 모델은 Google Play 또는 App Store를 통해 내려받습니다. 개발사 서버를 거치지 않습니다.</span><span class="en"><strong>Analysis model</strong> — the model needed for analysis is downloaded through Google Play or the App Store, not from our servers.</span></li>
+      <li><span class="ko"><strong>QR 스캔</strong> — Android 0.1.10부터는 앱에 포함된 스캐너가 카메라 화면에서 QR을 인식하며, QR을 누를 때만 카메라 권한을 요청합니다. 이전 Android 버전은 Google Play 서비스의 코드 스캐너에서 인식한 주소만 전달받습니다. iOS도 기기 카메라로 QR을 인식합니다. QR 인식 과정의 카메라 영상은 기기에서만 처리하며 사진이나 영상을 저장하거나 전송하지 않습니다.</span><span class="en"><strong>QR scanning</strong> — from Android version 0.1.10, the bundled scanner reads QR codes from the camera and requests camera permission only when you select QR scanning. Earlier Android versions receive only the decoded address from the Google Play services code scanner. iOS also uses the device camera to read QR codes. Camera frames for QR recognition are processed only on your device; no photos or videos are saved or sent.</span></li>
+      <li><span class="ko"><strong>분석 모델</strong> — Google Play 및 App Store 버전은 필요한 분석 모델을 각 스토어를 통해 내려받습니다. ONE store 버전은 분석 모델을 앱에 모두 포함하여 별도 모델 다운로드 없이 사용합니다. 개발사 서버를 거치지 않습니다.</span><span class="en"><strong>Analysis model</strong> — Google Play and App Store versions download required analysis models through the respective store, not from our servers. The ONE store version includes all analysis models in the app and requires no separate model download.</span></li>
     </ul>
   </div>
 </section>
@@ -179,8 +179,8 @@
             <td><span class="ko">광고 파트너가 광고를 제공하고 성과를 측정하는 데 사용합니다(4항 참고). 기기 설정에서 재설정하거나 삭제할 수 있습니다.</span><span class="en">Used by our ad partner to serve and measure ads (see section 4). You can reset or delete it in device settings.</span></td>
           </tr>
           <tr>
-            <td><strong><span class="ko">카메라</span><span class="en">Camera</span></strong><br><span class="meta">iOS</span></td>
-            <td><span class="ko">교재의 QR을 찍을 때만 사용합니다. 사진을 저장하거나 전송하지 않습니다. (Android는 카메라 권한을 요청하지 않습니다.)</span><span class="en">Used only while scanning a textbook QR code; no images are saved or sent. (Android does not request camera permission.)</span></td>
+            <td><strong><span class="ko">카메라</span><span class="en">Camera</span></strong><br><span class="meta">Android 0.1.10+ · iOS</span></td>
+            <td><span class="ko">교재의 QR을 찍을 때만 사용합니다. 사진을 저장하거나 전송하지 않습니다. 권한을 거절해도 음원 파일 가져오기와 듣기 학습은 이용할 수 있습니다.</span><span class="en">Used only while scanning a textbook QR code; no images are saved or sent. You can still import audio files and study if you decline camera permission.</span></td>
           </tr>
         </tbody>
       </table>
