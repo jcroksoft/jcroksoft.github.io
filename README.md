@@ -13,12 +13,17 @@ TwoTap(투탭) 공식 웹사이트. GitHub Pages로 `https://jcroksoft.github.io
 │   ├── lang.js         한국어/영어 전환
 │   ├── twotap-mark.svg TwoTap 로고 (두 번 탭하는 두 손가락). favicon.png · apple-touch-icon.png · twotap-logo-512.png 는 이 SVG 를 렌더링한 것
 │   ├── smp-icon.png · lq-icon.png · deepminer-icon.png · luckchess-icon.png
+│   ├── dice1296-icon.png  주사위 1296 아이콘
+│   ├── og/             공유 링크 미리보기(OG) 이미지 1200×630 JPEG. 토스 앱의 공유 링크(Share.createLink ogImageUrl)가 이 주소를 써서 파일 이름을 바꾸지 않는다
+│   ├── dice1296/       주사위 1296 소개 스크린샷 (토스 세로 스크린샷을 584×962 JPEG 로 줄인 것)
 │   ├── deepminer/      딥 마이너 소개 스크린샷 (Play 빌드 캡처를 540px JPEG 로 줄인 것)
 │   └── luckchess/      운빨 체스 소개 스크린샷 (토스 세로 스크린샷을 높이 962px JPEG 로 줄인 것)
 ├── smp/                Smart Music Player 소개 · 개인정보처리방침
 ├── lq/                 ListenQ 소개 · 개인정보처리방침 · version.json
 ├── deepminer/          딥 마이너: 광산 땅파기 소개 · 개인정보처리방침
-└── luckchess/          운빨 체스 3D 소개 · 개인정보처리방침
+├── luckchess/          운빨 체스 3D 소개 · 개인정보처리방침
+├── arrowrest/          애로우 레스트 3D 소개 · 개인정보처리방침
+└── dice1296/           주사위 1296 소개 (토스 앱인토스 전용)
 ```
 
 ## 고정 URL
@@ -33,6 +38,7 @@ TwoTap(투탭) 공식 웹사이트. GitHub Pages로 `https://jcroksoft.github.io
 | ListenQ 개인정보처리방침 | `https://jcroksoft.github.io/lq/privacy.html` |
 | 딥 마이너 개인정보처리방침 | `https://jcroksoft.github.io/deepminer/privacy.html` |
 | 운빨 체스 개인정보처리방침 | `https://jcroksoft.github.io/luckchess/privacy.html` |
+| 공유 OG 이미지 (토스 앱이 사용) | `https://jcroksoft.github.io/assets/og/{dice1296,luckchess,deepminer,arrowrest}.jpg` |
 
 ## 로컬 미리보기
 

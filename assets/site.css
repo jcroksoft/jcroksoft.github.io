@@ -251,6 +251,19 @@ h3 {
   border: 1px solid var(--line);
 }
 .shots.tall img { aspect-ratio: 636 / 1048; }
+
+/* 홍보 이미지: 공유 링크 미리보기(OG)와 같은 1200×630 이미지 */
+.promo-img { margin: 0; }
+.promo-img img {
+  display: block;
+  width: 100%;
+  max-width: 960px;
+  height: auto;
+  aspect-ratio: 1200 / 630;
+  border-radius: 20px;
+  border: 1px solid var(--line);
+}
+.promo-img figcaption { margin-top: 10px; font-size: 13px; color: var(--muted); }
 .shots.phone img { aspect-ratio: 1 / 2; }
 .shots figcaption { margin-top: 8px; font-size: 13px; color: var(--muted); text-align: center; }
 
